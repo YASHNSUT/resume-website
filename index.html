@@ -17,7 +17,7 @@
       <a href="#">Home</a>
       <a href="#">Projects</a>
       <a href="#">Articles</a>
-      <a href="#">Contact</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
@@ -30,7 +30,7 @@
   <!-- Main Container -->
   <div class="container">
 
-    <!-- Sidebar (Mobile: Top, Desktop: Left) -->
+    <!-- Sidebar -->
     <aside class="sidebar">
       <section>
         <h2>Projects</h2>
@@ -134,6 +134,29 @@
           <p>"John doe was a brilliant student; always stood out with his assignments."</p>
           <footer>- Jane Doe, Assistant Professor</footer>
         </div>
+      </section>
+
+      <!-- Contact Form -->
+      <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Write your message" required></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
       </section>
     </main>
   </div>
